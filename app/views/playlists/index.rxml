@@ -1,0 +1,6 @@
+xml.instruct! :xml, :version=>"1.0" 
+xml.playlists{
+  for playlist in @playlists
+    xml.playlist(playlist)
+  end
+}

@@ -1,0 +1,4 @@
+%table
+  - for artist in @artists
+    %tr
+      %td= link_to artist, albums_search_path(:action => 'artist', :search => artist)

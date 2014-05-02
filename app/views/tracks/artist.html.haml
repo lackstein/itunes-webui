@@ -1,0 +1,4 @@
+%table
+  - for track in @tracks
+    %tr
+      %td= link_to track, track_path(:search => track)

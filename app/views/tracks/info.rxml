@@ -1,0 +1,10 @@
+xml.instruct! :xml, :version=>"1.0" 
+xml.track{
+  xml.name(@name)
+  xml.artist(@artist)
+  xml.album(@album)
+  xml.year(@year)
+  xml.rating(@rating)
+  xml.time(@time)
+  xml.genre(@genre)
+}

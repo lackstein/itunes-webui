@@ -1,0 +1,3 @@
+This is a web based remote control for iTunes, written before Apple released the iOS Remote app. It uses the Ruby AppleScript bridge to get song information and control iTunes.
+
+It was made entirely as a proof of concept in 2008, and is not guaranteed to work with current versions of iTunes. I had just discovered the rb-appscript gem and Apple had recently released DashCode, so I decided to play around and see what I could do with the both of them.

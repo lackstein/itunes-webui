@@ -1,0 +1,360 @@
+
+
+Processing PlaylistsController#index (for 192.168.0.1 at 2008-06-16 22:14:39) [GET]
+  Session ID: 2d0b8012640a48f77dd1cd92ff1617d2
+  Parameters: {"format"=>"xml", "action"=>"index", "controller"=>"playlists"}
+Rendering playlists/index
+Completed in 0.03236 (30 reqs/sec) | Rendering: 0.00186 (5%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/playlists.xml]
+
+
+Processing TracksController#playlist (for 192.168.0.1 at 2008-06-16 22:14:39) [GET]
+  Session ID: d214abf13464e26a115d27a536b8cd03
+  Parameters: {"format"=>"xml", "search"=>"My Top Rated", "action"=>"playlist", "controller"=>"tracks"}
+Rendering tracks/playlist
+Completed in 0.01859 (53 reqs/sec) | Rendering: 0.00902 (48%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/tracks/playlist/My%20Top%20Rated.xml]
+
+
+Processing ArtistsController#index (for 192.168.0.1 at 2008-06-16 22:14:39) [GET]
+  Session ID: f673661446c7a66d40a727b222aca048
+  Parameters: {"format"=>"xml", "action"=>"index", "controller"=>"artists"}
+Rendering artists/index
+Completed in 0.04117 (24 reqs/sec) | Rendering: 0.01838 (44%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/artists.xml]
+
+
+Processing AlbumsController#index (for 192.168.0.1 at 2008-06-16 22:14:39) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"format"=>"xml", "action"=>"index", "controller"=>"albums"}
+Rendering albums/index
+Completed in 0.04158 (24 reqs/sec) | Rendering: 0.02026 (48%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/albums.xml]
+
+
+Processing RemoteController#currently (for 192.168.0.1 at 2008-06-16 22:14:41) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"format"=>"xml", "action"=>"currently", "controller"=>"remote"}
+Rendering remote/currently
+Completed in 0.01296 (77 reqs/sec) | Rendering: 0.00243 (18%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/currently.xml]
+
+
+Processing LibraryController#list (for 192.168.0.1 at 2008-06-16 22:14:45) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"format"=>"xml", "action"=>"list", "controller"=>"library"}
+Rendering library/list
+Completed in 0.09704 (10 reqs/sec) | Rendering: 0.07492 (77%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/library.xml]
+
+
+Processing RemoteController#currently (for 192.168.0.1 at 2008-06-16 22:31:59) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"format"=>"xml", "action"=>"currently", "controller"=>"remote"}
+Rendering remote/currently
+Completed in 0.01150 (86 reqs/sec) | Rendering: 0.00100 (8%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/currently.xml]
+
+
+Processing RemoteController#pause (for 192.168.0.1 at 2008-06-16 22:32:41) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"action"=>"pause", "controller"=>"remote"}
+Completed in 0.00683 (146 reqs/sec) | Rendering: 0.00077 (11%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/playpause]
+
+
+Processing RemoteController#pause (for 192.168.0.1 at 2008-06-16 22:32:42) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"action"=>"pause", "controller"=>"remote"}
+Completed in 0.02110 (47 reqs/sec) | Rendering: 0.00036 (1%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/playpause]
+
+
+Processing RemoteController#currently (for 192.168.0.1 at 2008-06-16 22:33:09) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"format"=>"xml", "action"=>"currently", "controller"=>"remote"}
+Rendering remote/currently
+Completed in 0.07743 (12 reqs/sec) | Rendering: 0.00108 (1%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/currently.xml]
+
+
+Processing TracksController#artist (for 192.168.0.1 at 2008-06-16 22:33:18) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"format"=>"xml", "search"=>"Adam Sandler", "action"=>"artist", "controller"=>"tracks"}
+Rendering tracks/artist
+Completed in 0.07499 (13 reqs/sec) | Rendering: 0.00112 (1%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/tracks/artist/Adam%20Sandler.xml]
+
+
+Processing TracksController#artist (for 192.168.0.1 at 2008-06-16 22:33:23) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"format"=>"xml", "search"=>"AeroSmith", "action"=>"artist", "controller"=>"tracks"}
+Rendering tracks/artist
+Completed in 0.07360 (13 reqs/sec) | Rendering: 0.00089 (1%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/tracks/artist/AeroSmith.xml]
+
+
+Processing TracksController#info (for 192.168.0.1 at 2008-06-16 22:33:27) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"format"=>"xml", "search"=>"Sweet Emotion", "action"=>"info", "controller"=>"tracks"}
+Rendering tracks/info
+Completed in 0.08089 (12 reqs/sec) | Rendering: 0.00217 (2%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/track/Sweet%20Emotion.xml]
+
+
+Processing RemoteController#currently (for 192.168.0.1 at 2008-06-16 22:33:34) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"format"=>"xml", "action"=>"currently", "controller"=>"remote"}
+Rendering remote/currently
+Completed in 0.00990 (100 reqs/sec) | Rendering: 0.00102 (10%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/currently.xml]
+
+
+Processing TracksController#artist (for 192.168.0.1 at 2008-06-16 22:33:39) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"format"=>"xml", "search"=>"AeroSmith", "action"=>"artist", "controller"=>"tracks"}
+Rendering tracks/artist
+Completed in 0.07206 (13 reqs/sec) | Rendering: 0.00078 (1%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/tracks/artist/AeroSmith.xml]
+
+
+Processing TracksController#info (for 192.168.0.1 at 2008-06-16 22:33:40) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"format"=>"xml", "search"=>"Sweet Emotion", "action"=>"info", "controller"=>"tracks"}
+Rendering tracks/info
+Completed in 0.07883 (12 reqs/sec) | Rendering: 0.00101 (1%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/track/Sweet%20Emotion.xml]
+
+
+Processing RemoteController#play (for 192.168.0.1 at 2008-06-16 22:33:43) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"action"=>"play", "track"=>"Sweet Emotion", "controller"=>"remote"}
+Completed in 0.17031 (5 reqs/sec) | Rendering: 0.00058 (0%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/play/Sweet%20Emotion]
+
+
+Processing PlaylistsController#index (for 206.126.81.155 at 2008-06-17 15:31:30) [GET]
+  Session ID: 2c90f2af7a08198d8b585377c1e635fa
+  Parameters: {"format"=>"xml", "action"=>"index", "controller"=>"playlists"}
+Rendering playlists/index
+Completed in 0.00989 (101 reqs/sec) | Rendering: 0.00136 (13%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/playlists.xml]
+
+
+Processing ArtistsController#index (for 206.126.81.155 at 2008-06-17 15:31:30) [GET]
+  Session ID: fce7c00471006103adfd3aafc77607ac
+  Parameters: {"format"=>"xml", "action"=>"index", "controller"=>"artists"}
+Rendering artists/index
+Completed in 0.03726 (26 reqs/sec) | Rendering: 0.01705 (45%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/artists.xml]
+
+
+Processing AlbumsController#index (for 206.126.81.155 at 2008-06-17 15:31:30) [GET]
+  Session ID: 206f7c21b7148e80026cd345817d5791
+  Parameters: {"format"=>"xml", "action"=>"index", "controller"=>"albums"}
+Rendering albums/index
+Completed in 0.04076 (24 reqs/sec) | Rendering: 0.02016 (49%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/albums.xml]
+
+
+Processing TracksController#playlist (for 206.126.81.155 at 2008-06-17 15:31:30) [GET]
+  Session ID: 171e6a907c9d27a5d31a29b83594f511
+  Parameters: {"format"=>"xml", "search"=>"My Top Rated", "action"=>"playlist", "controller"=>"tracks"}
+Rendering tracks/playlist
+Completed in 0.01569 (63 reqs/sec) | Rendering: 0.00855 (54%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/tracks/playlist/My%20Top%20Rated.xml]
+
+
+Processing AlbumsController#index (for 206.126.81.155 at 2008-06-17 15:32:00) [GET]
+  Session ID: fa96a1e6d03aa5c216b6e46ef5a24286
+  Parameters: {"format"=>"xml", "action"=>"index", "controller"=>"albums"}
+Rendering albums/index
+Completed in 0.04155 (24 reqs/sec) | Rendering: 0.02056 (49%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/albums.xml]
+
+
+Processing PlaylistsController#index (for 206.126.81.155 at 2008-06-17 15:32:00) [GET]
+  Session ID: 3c1f21f0d0625da24cf528a92a298b74
+  Parameters: {"format"=>"xml", "action"=>"index", "controller"=>"playlists"}
+Rendering playlists/index
+Completed in 0.00708 (141 reqs/sec) | Rendering: 0.00126 (17%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/playlists.xml]
+
+
+Processing ArtistsController#index (for 206.126.81.155 at 2008-06-17 15:32:00) [GET]
+  Session ID: 52c1ffd1edd38299985dadcea478e07a
+  Parameters: {"format"=>"xml", "action"=>"index", "controller"=>"artists"}
+Rendering artists/index
+Completed in 0.03522 (28 reqs/sec) | Rendering: 0.01612 (45%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/artists.xml]
+
+
+Processing TracksController#playlist (for 206.126.81.155 at 2008-06-17 15:32:00) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"format"=>"xml", "search"=>"My Top Rated", "action"=>"playlist", "controller"=>"tracks"}
+Rendering tracks/playlist
+Completed in 0.01640 (60 reqs/sec) | Rendering: 0.00802 (48%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/tracks/playlist/My%20Top%20Rated.xml]
+
+
+Processing TracksController#playlist (for 206.126.81.155 at 2008-06-17 15:32:11) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"format"=>"xml", "search"=>"Recently Added", "action"=>"playlist", "controller"=>"tracks"}
+Rendering tracks/playlist
+Completed in 0.01871 (53 reqs/sec) | Rendering: 0.01067 (57%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/tracks/playlist/Recently%20Added.xml]
+
+
+Processing TracksController#playlist (for 206.126.81.155 at 2008-06-17 15:32:18) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"format"=>"xml", "search"=>"Recently Played", "action"=>"playlist", "controller"=>"tracks"}
+Rendering tracks/playlist
+Completed in 0.02186 (45 reqs/sec) | Rendering: 0.01301 (59%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/tracks/playlist/Recently%20Played.xml]
+
+
+Processing TracksController#playlist (for 206.126.81.155 at 2008-06-17 15:32:21) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"format"=>"xml", "search"=>"Recently Added", "action"=>"playlist", "controller"=>"tracks"}
+Rendering tracks/playlist
+Completed in 0.01869 (53 reqs/sec) | Rendering: 0.01059 (56%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/tracks/playlist/Recently%20Added.xml]
+
+
+Processing TracksController#info (for 206.126.81.155 at 2008-06-17 15:32:33) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"format"=>"xml", "search"=>"Chasing The Sun", "action"=>"info", "controller"=>"tracks"}
+Rendering tracks/info
+Completed in 0.07929 (12 reqs/sec) | Rendering: 0.00094 (1%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/track/Chasing%20The%20Sun.xml]
+
+
+Processing TracksController#info (for 206.126.81.155 at 2008-06-17 15:32:38) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"format"=>"xml", "search"=>"08 Virginia Moon", "action"=>"info", "controller"=>"tracks"}
+Rendering tracks/info
+Completed in 0.07920 (12 reqs/sec) | Rendering: 0.00099 (1%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/track/08%20Virginia%20Moon.xml]
+
+
+Processing RemoteController#play (for 206.126.81.155 at 2008-06-17 15:32:41) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"action"=>"play", "track"=>"08 Virginia Moon", "controller"=>"remote"}
+Completed in 0.12839 (7 reqs/sec) | Rendering: 0.00032 (0%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/play/08%20Virginia%20Moon]
+
+
+Processing RemoteController#play (for 206.126.81.155 at 2008-06-17 15:32:42) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"action"=>"play", "track"=>"08 Virginia Moon", "controller"=>"remote"}
+Completed in 0.07988 (12 reqs/sec) | Rendering: 0.00030 (0%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/play/08%20Virginia%20Moon]
+
+
+Processing RemoteController#play (for 206.126.81.155 at 2008-06-17 15:32:43) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"action"=>"play", "track"=>"08 Virginia Moon", "controller"=>"remote"}
+Completed in 0.07892 (12 reqs/sec) | Rendering: 0.00026 (0%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/play/08%20Virginia%20Moon]
+
+
+Processing RemoteController#play (for 206.126.81.155 at 2008-06-17 15:34:51) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"action"=>"play", "track"=>"08 Virginia Moon", "controller"=>"remote"}
+Completed in 0.07989 (12 reqs/sec) | Rendering: 0.00027 (0%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/play/08%20Virginia%20Moon]
+
+
+Processing RemoteController#currently (for 206.126.81.155 at 2008-06-17 15:34:56) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"format"=>"xml", "action"=>"currently", "controller"=>"remote"}
+Rendering remote/currently
+Completed in 0.01022 (97 reqs/sec) | Rendering: 0.00096 (9%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/currently.xml]
+
+
+Processing TracksController#artist (for 206.126.81.155 at 2008-06-17 15:35:14) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"format"=>"xml", "search"=>"Good Charlotte", "action"=>"artist", "controller"=>"tracks"}
+Rendering tracks/artist
+Completed in 0.07572 (13 reqs/sec) | Rendering: 0.00328 (4%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/tracks/artist/Good%20Charlotte.xml]
+
+
+Processing TracksController#info (for 206.126.81.155 at 2008-06-17 15:35:26) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"format"=>"xml", "search"=>"S.O.S.", "action"=>"info", "controller"=>"tracks"}
+Rendering tracks/info
+Completed in 0.07757 (12 reqs/sec) | Rendering: 0.00100 (1%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/track/S.O.S..xml]
+
+
+Processing TracksController#info (for 206.126.81.155 at 2008-06-17 15:35:48) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"format"=>"xml", "search"=>"Girls and Boys", "action"=>"info", "controller"=>"tracks"}
+Rendering tracks/info
+Completed in 0.07826 (12 reqs/sec) | Rendering: 0.00106 (1%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/track/Girls%20and%20Boys.xml]
+
+
+Processing RemoteController#play (for 206.126.81.155 at 2008-06-17 15:35:49) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"action"=>"play", "track"=>"Girls and Boys", "controller"=>"remote"}
+Completed in 0.12636 (7 reqs/sec) | Rendering: 0.00079 (0%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/play/Girls%20and%20Boys]
+
+
+Processing TracksController#info (for 206.126.81.155 at 2008-06-17 15:36:20) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"format"=>"xml", "search"=>"Change", "action"=>"info", "controller"=>"tracks"}
+Rendering tracks/info
+Completed in 0.07935 (12 reqs/sec) | Rendering: 0.00095 (1%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/track/Change.xml]
+
+
+Processing RemoteController#play (for 206.126.81.155 at 2008-06-17 15:36:22) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"action"=>"play", "track"=>"Change", "controller"=>"remote"}
+Completed in 0.10042 (9 reqs/sec) | Rendering: 0.00042 (0%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/play/Change]
+
+
+Processing RemoteController#play (for 206.126.81.155 at 2008-06-17 15:36:22) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"action"=>"play", "track"=>"Change", "controller"=>"remote"}
+Completed in 0.07965 (12 reqs/sec) | Rendering: 0.00027 (0%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/play/Change]
+
+
+Processing RemoteController#play (for 206.126.81.155 at 2008-06-17 15:36:22) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"action"=>"play", "track"=>"Change", "controller"=>"remote"}
+Completed in 0.13496 (7 reqs/sec) | Rendering: 0.00036 (0%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/play/Change]
+
+
+Processing RemoteController#play (for 206.126.81.155 at 2008-06-17 15:36:22) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"action"=>"play", "track"=>"Change", "controller"=>"remote"}
+Completed in 0.08034 (12 reqs/sec) | Rendering: 0.00032 (0%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/play/Change]
+
+
+Processing TracksController#info (for 206.126.81.155 at 2008-06-17 15:36:26) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"format"=>"xml", "search"=>"I Heard You", "action"=>"info", "controller"=>"tracks"}
+Rendering tracks/info
+Completed in 0.07845 (12 reqs/sec) | Rendering: 0.00102 (1%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/track/I%20Heard%20You.xml]
+
+
+Processing RemoteController#play (for 206.126.81.155 at 2008-06-17 15:36:27) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"action"=>"play", "track"=>"I Heard You", "controller"=>"remote"}
+Completed in 0.10168 (9 reqs/sec) | Rendering: 0.00039 (0%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/play/I%20Heard%20You]
+
+
+Processing TracksController#info (for 206.126.81.155 at 2008-06-17 15:36:39) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"format"=>"xml", "search"=>"I Don't Wanna Stop", "action"=>"info", "controller"=>"tracks"}
+Rendering tracks/info
+Completed in 0.08055 (12 reqs/sec) | Rendering: 0.00106 (1%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/track/I%20Don't%20Wanna%20Stop.xml]
+
+
+Processing RemoteController#play (for 206.126.81.155 at 2008-06-17 15:36:40) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--d502136905d1fca731496d64732024d43a51e7c4
+  Parameters: {"action"=>"play", "track"=>"I Don't Wanna Stop", "controller"=>"remote"}
+Completed in 0.10442 (9 reqs/sec) | Rendering: 0.00032 (0%) | DB: 0.00000 (0%) | 200 OK [http://24.200.99.51/play/I%20Don't%20Wanna%20Stop]

@@ -1,0 +1,6 @@
+xml.instruct! :xml, :version=>"1.0" 
+xml.tracks{
+  for track in @tracks
+    xml.track(track)
+  end
+}

@@ -1,0 +1,6 @@
+xml.instruct! :xml, :version=>"1.0" 
+xml.album{
+  for album in @albums
+    xml.album(album)
+  end
+}

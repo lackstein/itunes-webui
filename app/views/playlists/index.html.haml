@@ -1,0 +1,4 @@
+%table
+  - for playlist in @playlists
+    %tr
+      %td= link_to playlist, tracks_path(:action => 'playlist', :search => playlist)
